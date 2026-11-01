@@ -87,7 +87,7 @@
 .socio-modal::backdrop{background:rgba(2,15,38,.78)}
 .socio-content{padding:34px 32px 38px;text-align:center;border-top:9px solid #063b88}
 .socio-content{position:relative;isolation:isolate;overflow:hidden;background:#fff}
-.socio-content::before{content:"";position:absolute;inset:0;background:url("Bras%C3%A3o%20Colonial%20Esporte%20Clube%20em%20Azul%20e%20Branco.png") center center / 75% auto no-repeat;opacity:.085;z-index:-1;pointer-events:none}
+.socio-content::before{content:"";position:absolute;inset:0;background:url("Bras%C3%A3o%20Colonial%20Esporte%20Clube%20em%20Azul%20e%20Branco.png") center center / 75% auto no-repeat;opacity:.085;z-index:1;pointer-events:none}
 .socio-content > *{position:relative;z-index:1}
 .socio-close{position:absolute;right:12px;top:12px;background:#edf2f8;border:0;border-radius:50%;height:38px;width:38px;font-size:27px;line-height:1;color:#063b88}
 .socio-kicker{font-size:12px;letter-spacing:.12em;font-weight:800;color:#557392;margin:10px 28px 14px}
@@ -468,9 +468,9 @@
 </style><style>
 /* Vídeo de fundo exclusivo da seção Compromisso Social. */
 #social.blue-band{position:relative;isolation:isolate;overflow:hidden;background:#052a63!important;background-image:none!important}
-#social .social-video-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;z-index:-2;pointer-events:none}
+#social .social-video-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;z-index:0;pointer-events:none}
 #social .social-video-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,20,49,.74),rgba(3,34,76,.55));z-index:-1;pointer-events:none}
-#social>.container{position:relative;z-index:1}
+#social>.container{position:relative;z-index:2}
 #social .highlight{background:rgba(5,42,99,.78)}
 @media(max-width:650px){#social .social-video-bg{object-position:center center}}
 </style>
