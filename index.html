@@ -320,6 +320,10 @@
 .visual.three.cec-comunidade-foto{padding:0;background:#061b3a;overflow:hidden;}
 .visual.three.cec-comunidade-foto::before{display:none;}
 .visual.three.cec-comunidade-foto img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 32%;}
+
+/* Link de download do regulamento: preserva a aparência do botão de associados. */
+.cec-associados-botao{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;cursor:pointer}
+.cec-associados-botao:focus-visible{outline:3px solid #18a5e6;outline-offset:3px}
 </style>
 <style>
 /* Capa Biriba: layout 16:9 sem sobrepor o brasão superior esquerdo */
@@ -553,8 +557,8 @@
 <h2 id="beneficios-titulo">TORNE-SE SÓCIO E APROVEITE MUITO MAIS COM SUA FAMÍLIA!</h2>
 <p class="cec-associados-intro">Os associados do Colonial Esporte Clube podem aproveitar a piscina, o campo de futebol e o ginásio poliesportivo para momentos de lazer e atividades esportivas, conforme as regras, os horários e a disponibilidade dos espaços.</p>
 <p class="cec-associados-aviso"><strong>Atenção, associados!</strong> A utilização das dependências está sujeita ao regulamento interno e às orientações da administração do clube.</p>
-<span aria-disabled="true" class="cec-associados-botao" title="Regulamento em breve">REGULAMENTO DO CLUBE <small>EM BREVE</small></span>
-<p class="cec-associados-rodape">O regulamento em PDF estará disponível para download após sua publicação.</p>
+<a class="cec-associados-botao" href="Regulamento_Colonial_Esporte_Clube.pdf" download="Regulamento_Colonial_Esporte_Clube.pdf" type="application/pdf" aria-label="Baixar regulamento interno do Colonial Esporte Clube em PDF">BAIXAR REGULAMENTO DO CLUBE <small>PDF</small></a>
+<p class="cec-associados-rodape">Regulamento interno de utilização das dependências — disponível para download em PDF.</p>
 </div>
 </section>
 <section class="blue-band" id="social"><video class="social-video-bg" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
